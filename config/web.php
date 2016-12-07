@@ -18,6 +18,9 @@ $config = [
             'identityClass' => 'dektrium\user\models\User',
             'enableAutoLogin' => true,
         ],
+        'authManager' => [
+            'class' => 'dektrium\rbac\components\DbManager',
+        ],
         'errorHandler' => [
             'errorAction' => 'site/error',
         ],
@@ -55,6 +58,20 @@ $config = [
             'cost' => 12,
             'admins' => ['admin']
          ],
+        'rbac' => [
+            'class'=>'dektrium\rbac\RbacWebModule',
+        ],
+        'admin' => [
+            'class' => 'mdm\admin\Module',            
+        ]
+    ],
+    'as access' => [
+        'class' => 'mdm\admin\components\AccessControl',
+        'allowActions' => [
+            'site/*',
+            'admin/*',
+            'some-controller/some-action',
+                   ]
     ],
     'params' => $params,
 ];
