@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "9e4e41b6d998bd548d6fdb7a0b2f01f2",
-    "content-hash": "abb5a9037aa30df97de64331b09bff17",
+    "hash": "5056e2a4026bd18f70cbe6b3effe52d0",
+    "content-hash": "02d91b882a02dea257e60c89739a477b",
     "packages": [
         {
             "name": "2amigos/yii2-date-picker-widget",
@@ -361,6 +361,95 @@
                 "event",
                 "full-sized",
                 "jquery-plugin"
+            ]
+        },
+        {
+            "name": "bower-asset/gentelella",
+            "version": "1.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/puikinsh/gentelella.git",
+                "reference": "6f90d7cc133f5c13fa4513a54cdd2740249cc0f3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/puikinsh/gentelella/zipball/6f90d7cc133f5c13fa4513a54cdd2740249cc0f3",
+                "reference": "6f90d7cc133f5c13fa4513a54cdd2740249cc0f3",
+                "shasum": ""
+            },
+            "require-dev": {
+                "bower-asset/animate.css": ">=3.5.1,<4.0.0",
+                "bower-asset/autosize": ">=3.0.15,<4.0.0",
+                "bower-asset/bootstrap": ">=3.3.6,<4.0.0",
+                "bower-asset/bootstrap-colorpicker": ">=2.3.3,<3.0.0",
+                "bower-asset/bootstrap-daterangepicker": ">=2.1.19,<3.0.0",
+                "bower-asset/bootstrap-progressbar": ">=0.9.0,<0.10.0",
+                "bower-asset/bootstrap-wysiwyg-steveathon": ">=1.0.5,<2.0.0",
+                "bower-asset/chart.js": ">=2.0.2,<3.0.0",
+                "bower-asset/cropper": ">=2.3.0,<3.0.0",
+                "bower-asset/datatables.net": ">=1.10.11,<2.0.0",
+                "bower-asset/datatables.net-bs": ">=1.10.11,<2.0.0",
+                "bower-asset/datatables.net-buttons": ">=1.1.2,<2.0.0",
+                "bower-asset/datatables.net-buttons-bs": ">=1.1.2,<2.0.0",
+                "bower-asset/datatables.net-fixedheader": ">=3.1.1,<4.0.0",
+                "bower-asset/datatables.net-fixedheader-bs": ">=3.1.1,<4.0.0",
+                "bower-asset/datatables.net-keytable": ">=2.1.1,<3.0.0",
+                "bower-asset/datatables.net-responsive": ">=2.0.2,<3.0.0",
+                "bower-asset/datatables.net-responsive-bs": ">=2.0.2,<3.0.0",
+                "bower-asset/datatables.net-scroller": ">=1.4.1,<2.0.0",
+                "bower-asset/datatables.net-scroller-bs": ">=1.4.1,<2.0.0",
+                "bower-asset/devbridge-autocomplete": ">=1.2.24,<2.0.0",
+                "bower-asset/dropzone": ">=4.3.0,<5.0.0",
+                "bower-asset/echarts": ">=3.1.7,<4.0.0",
+                "bower-asset/fastclick": ">=1.0.6,<2.0.0",
+                "bower-asset/flot": ">=0.8.3,<0.9.0",
+                "bower-asset/fontawesome": ">=4.6.1,<5.0.0",
+                "bower-asset/fullcalendar": ">=2.6.1,<3.0.0",
+                "bower-asset/gauge.js": ">=1.2.1,<2.0.0",
+                "bower-asset/icheck": ">=1.0.2,<2.0.0",
+                "bower-asset/ionrangeslider": ">=2.1.3,<3.0.0",
+                "bower-asset/jquery": ">=2.2.3,<3.0.0",
+                "bower-asset/jquery-knob": ">=1.2.13,<2.0.0",
+                "bower-asset/jquery-smart-wizard": ">=3.3.1,<4.0.0",
+                "bower-asset/jquery-sparkline": ">=2.1.3,<3.0.0",
+                "bower-asset/jquery.easy-pie-chart": ">=2.1.6,<3.0.0",
+                "bower-asset/jquery.inputmask": ">=3.3.1,<4.0.0",
+                "bower-asset/jquery.tagsinput": ">=1.3.6,<2.0.0",
+                "bower-asset/jszip": "2.6.0",
+                "bower-asset/malihu-custom-scrollbar-plugin": ">=3.1.3,<4.0.0",
+                "bower-asset/morris.js": ">=0.5.1,<0.6.0",
+                "bower-asset/normalize-css": ">=4.1.1,<5.0.0",
+                "bower-asset/nprogress": ">=0.2.0,<0.3.0",
+                "bower-asset/parsleyjs": ">=2.3.10,<3.0.0",
+                "bower-asset/pdfmake": ">=0.1.20,<0.2.0",
+                "bower-asset/pnotify": ">=3.0.0,<4.0.0",
+                "bower-asset/select2": ">=4.0.2,<5.0.0",
+                "bower-asset/skycons": "*",
+                "bower-asset/starrr": ">=2.0.0,<3.0.0",
+                "bower-asset/switchery": ">=0.8.1,<0.9.0",
+                "bower-asset/validator": ">=1.0.6,<2.0.0"
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-ignore": [
+                    "**/.*",
+                    "documentation"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "Gentellela Admin is a free to use Bootstrap admin template",
+            "keywords": [
+                "admin",
+                "backend",
+                "bootstrap",
+                "css",
+                "html",
+                "js",
+                "responsive",
+                "template",
+                "theme"
             ]
         },
         {
@@ -3020,6 +3109,54 @@
             "time": "2015-05-01 07:00:55"
         },
         {
+            "name": "raoul2000/yii2-bootswatch-asset",
+            "version": "1.2.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/raoul2000/yii2-bootswatch-asset.git",
+                "reference": "52bf7fc645c019a8f7df58d120179f50f3e0f429"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/raoul2000/yii2-bootswatch-asset/zipball/52bf7fc645c019a8f7df58d120179f50f3e0f429",
+                "reference": "52bf7fc645c019a8f7df58d120179f50f3e0f429",
+                "shasum": ""
+            },
+            "require": {
+                "thomaspark/bootswatch": "3.3.7",
+                "yiisoft/yii2": "*"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "raoul2000\\bootswatch\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Raoul",
+                    "email": "raoul.boulard@gmail.com"
+                }
+            ],
+            "description": "Use Bootswatch theme in your Yii application with minimum effort",
+            "keywords": [
+                "assets",
+                "bootstrap",
+                "bootswatch",
+                "css",
+                "extension",
+                "skin",
+                "stlye",
+                "theme",
+                "yii2"
+            ],
+            "time": "2016-09-14 12:17:27"
+        },
+        {
             "name": "rmrevin/yii2-fontawesome",
             "version": "2.17.0",
             "source": {
@@ -3337,6 +3474,64 @@
                 "yii2"
             ],
             "time": "2014-11-07 11:32:05"
+        },
+        {
+            "name": "thomaspark/bootswatch",
+            "version": "v3.3.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thomaspark/bootswatch.git",
+                "reference": "4b0d3762f309326a6d66fa4ea18945a7fc11f8ef"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thomaspark/bootswatch/zipball/4b0d3762f309326a6d66fa4ea18945a7fc11f8ef",
+                "reference": "4b0d3762f309326a6d66fa4ea18945a7fc11f8ef",
+                "shasum": ""
+            },
+            "suggest": {
+                "robloach/component-installer": "Allows installation of Components via Composer"
+            },
+            "type": "component",
+            "extra": {
+                "component": {
+                    "name": "bootswatch",
+                    "files": [
+                        "README.md",
+                        "LICENSE",
+                        "amelia/*",
+                        "cerulean/*",
+                        "cosmo/*",
+                        "cyborg/*",
+                        "darkly/*",
+                        "flatly/*",
+                        "fonts/*",
+                        "journal/*",
+                        "lumen/*",
+                        "paper/*",
+                        "readable/*",
+                        "sandstone/*",
+                        "simplex/*",
+                        "slate/*",
+                        "spacelab/*",
+                        "superhero/*",
+                        "united/*",
+                        "yeti/*"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "thomaspark",
+                    "email": "thomas@bootswatch.com"
+                }
+            ],
+            "description": "Themes for Bootstrap",
+            "time": "2016-07-30 21:56:26"
         },
         {
             "name": "wbraganca/yii2-dynamicform",
@@ -3769,6 +3964,64 @@
                 "yii2"
             ],
             "time": "2016-09-09 11:48:11"
+        },
+        {
+            "name": "yiister/yii2-gentelella",
+            "version": "1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yiister/yii2-gentelella.git",
+                "reference": "a4b9b84ea928f3d3811910d7a372ba607293f630"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yiister/yii2-gentelella/zipball/a4b9b84ea928f3d3811910d7a372ba607293f630",
+                "reference": "a4b9b84ea928f3d3811910d7a372ba607293f630",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/gentelella": "*",
+                "php": ">=5.4.0",
+                "rmrevin/yii2-fontawesome": "~2.0",
+                "yiisoft/yii2": "~2.0.0",
+                "yiisoft/yii2-bootstrap": "~2.0.0"
+            },
+            "type": "yii2-extension",
+            "extra": {
+                "asset-installer-paths": {
+                    "npm-asset-library": "vendor/npm",
+                    "bower-asset-library": "vendor/bower"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "yiister\\gentelella\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pavel Fedotov",
+                    "email": "fps.06@mail.ru",
+                    "homepage": "https://github.com/fps01",
+                    "role": "Creator"
+                }
+            ],
+            "description": "Free admin template for backend",
+            "keywords": [
+                "admin",
+                "asset",
+                "backend",
+                "bootsprap3",
+                "extension",
+                "gentelella",
+                "theme",
+                "yii2"
+            ],
+            "time": "2016-08-01 03:18:02"
         },
         {
             "name": "yurkinx/yii2-image",
