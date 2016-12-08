@@ -8,6 +8,7 @@ use yii\bootstrap\Nav;
 use yii\bootstrap\NavBar;
 use yii\widgets\Breadcrumbs;
 use app\assets\AppAsset;
+
 raoul2000\bootswatch\BootswatchAsset::$theme = 'cerulean';
 AppAsset::register($this);
 ?>
@@ -27,20 +28,21 @@ AppAsset::register($this);
 <div class="wrap">
     <?php
     NavBar::begin([
-        'brandLabel' => 'My Company',
+        'brandLabel' => Yii::$app->name,
         'brandUrl' => Yii::$app->homeUrl,
         'options' => [
             'class' => 'navbar-inverse navbar-fixed-top',
         ],
     ]);
     echo Nav::widget([
-        'options' => ['class' => 'navbar-nav navbar-right'],
+        'encodeLabels'=>false,
+        'options' => ['class' => 'navbar-nav navbar-right'],        
         'items' => [
-            ['label' => 'Home', 'url' => ['/site/index']],
-            ['label' => 'About', 'url' => ['/site/about']],
-            ['label' => 'Contact', 'url' => ['/site/contact']],
+            ['label' => '<i class="glyphicon glyphicon-home"></i>', 'url' => ['/site/index']],             
+            ['label' => '<i class="glyphicon glyphicon-edit"></i> สมัครสมาชิก', 'url' => ['/user/registration/register']],
             Yii::$app->user->isGuest ? (
-                ['label' => 'Login', 'url' => ['/site/login']]
+                ['label' => '<i class="glyphicon glyphicon-user"></i> เข้าใช้งาน', 'url' => ['/user/security/login']]
+              
             ) : (
                 '<li>'
                 . Html::beginForm(['/site/logout'], 'post')
@@ -50,11 +52,12 @@ AppAsset::register($this);
                 )
                 . Html::endForm()
                 . '</li>'
-            )
+            ),     
         ],
     ]);
     NavBar::end();
     ?>
+    
 
     <div class="container">
         <?= Breadcrumbs::widget([

@@ -4,15 +4,16 @@ $params = require(__DIR__ . '/params.php');
 
 $config = [
     'id' => 'basic',
+    'name'=>'INAM - Yii - CLUB',
+    'language'=>'th_TH',
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
     'components' => [
 //        'view'=>[
 //            'theme'=>[
 //                'pathMap'=>[
-//                    '@app\views'=>'@app/themes/canyon'
-//                ],
-//               // 'baseUrl'=>'@www/themes/canyon'
+//                    '@app/views'=>'@app/themes/adminlte'
+//                ]
 //            ]
 //        ],
         'request' => [
@@ -77,8 +78,10 @@ $config = [
         'class' => 'mdm\admin\components\AccessControl',
         'allowActions' => [
             'site/*',
+            'user/*',
             'admin/*',
-            'some-controller/some-action',
+            'gii/*',
+            'debug/*'
                    ]
     ],
     'params' => $params,
