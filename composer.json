@@ -32,7 +32,7 @@
         "kartik-v/yii2-export": "*",
         "kartik-v/yii2-detail-view": "*",
         "kartik-v/yii2-date-range": "*",       
-        "kartik-v/yii2-grid": "*",
+        "kartik-v/yii2-grid": "@dev",
         "kartik-v/yii2-editable": "*",
         "kartik-v/yii2-checkbox-x": "*",
         "dektrium/yii2-user": "0.9.*@dev",
@@ -43,7 +43,8 @@
         "kartik-v/yii2-widget-depdrop": "@dev",
         "dmstr/yii2-adminlte-asset": "2.*",
         "yiister/yii2-gentelella": "~1.0",
-        "raoul2000/yii2-bootswatch-asset": "*"
+        "raoul2000/yii2-bootswatch-asset": "*",
+        "kartik-v/yii2-krajee-base": "dev-master"
       
         
     },

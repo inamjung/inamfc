@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "5056e2a4026bd18f70cbe6b3effe52d0",
-    "content-hash": "02d91b882a02dea257e60c89739a477b",
+    "hash": "433206e4e846c6d11586bce9f5958492",
+    "content-hash": "f0aa9adabe7e12f230e169595652ea4e",
     "packages": [
         {
             "name": "2amigos/yii2-date-picker-widget",
@@ -1675,16 +1675,16 @@
         },
         {
             "name": "kartik-v/yii2-grid",
-            "version": "v3.1.3",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kartik-v/yii2-grid.git",
-                "reference": "448db13904dad68153ef466bbc905b916a2a5900"
+                "reference": "02adeb436aef45b946d7c65bb874f634f5db2ff7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kartik-v/yii2-grid/zipball/448db13904dad68153ef466bbc905b916a2a5900",
-                "reference": "448db13904dad68153ef466bbc905b916a2a5900",
+                "url": "https://api.github.com/repos/kartik-v/yii2-grid/zipball/02adeb436aef45b946d7c65bb874f634f5db2ff7",
+                "reference": "02adeb436aef45b946d7c65bb874f634f5db2ff7",
                 "shasum": ""
             },
             "require": {
@@ -1721,7 +1721,7 @@
                 "widget",
                 "yii2"
             ],
-            "time": "2016-10-22 16:52:42"
+            "time": "2016-11-25 18:54:15"
         },
         {
             "name": "kartik-v/yii2-helpers",
@@ -1776,16 +1776,16 @@
         },
         {
             "name": "kartik-v/yii2-krajee-base",
-            "version": "v1.8.7",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kartik-v/yii2-krajee-base.git",
-                "reference": "8f558809e6093c8f4f4599b7b9fd64b366b22a60"
+                "reference": "52e623e54d06b853fda01a6529ccca93ed2a7f66"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kartik-v/yii2-krajee-base/zipball/8f558809e6093c8f4f4599b7b9fd64b366b22a60",
-                "reference": "8f558809e6093c8f4f4599b7b9fd64b366b22a60",
+                "url": "https://api.github.com/repos/kartik-v/yii2-krajee-base/zipball/52e623e54d06b853fda01a6529ccca93ed2a7f66",
+                "reference": "52e623e54d06b853fda01a6529ccca93ed2a7f66",
                 "shasum": ""
             },
             "require": {
@@ -1823,7 +1823,7 @@
                 "widget",
                 "yii2"
             ],
-            "time": "2016-09-04 09:25:29"
+            "time": "2016-11-26 09:53:44"
         },
         {
             "name": "kartik-v/yii2-mpdf",
@@ -6149,10 +6149,12 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "yurkinx/yii2-image": 20,
+        "kartik-v/yii2-grid": 20,
         "dektrium/yii2-user": 20,
         "dektrium/yii2-rbac": 20,
         "miloschuman/yii2-highcharts-widget": 20,
-        "kartik-v/yii2-widget-depdrop": 20
+        "kartik-v/yii2-widget-depdrop": 20,
+        "kartik-v/yii2-krajee-base": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

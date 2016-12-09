@@ -39,20 +39,21 @@ AppAsset::register($this);
         'options' => ['class' => 'navbar-nav navbar-right'],        
         'items' => [
             ['label' => '<i class="glyphicon glyphicon-home"></i>', 'url' => ['/site/index']],             
-            ['label' => '<i class="glyphicon glyphicon-edit"></i> สมัครสมาชิก', 'url' => ['/user/registration/register']],
-            Yii::$app->user->isGuest ? (
-                ['label' => '<i class="glyphicon glyphicon-user"></i> เข้าใช้งาน', 'url' => ['/user/security/login']]
-              
-            ) : (
-                '<li>'
-                . Html::beginForm(['/site/logout'], 'post')
-                . Html::submitButton(
-                    'Logout (' . Yii::$app->user->identity->username . ')',
-                    ['class' => 'btn btn-link logout']
-                )
-                . Html::endForm()
-                . '</li>'
-            ),     
+            //['label' => '<i class="glyphicon glyphicon-edit"></i> สมัครสมาชิก', 'url' => ['/user/registration/register']],
+            ['label' => '<i class="glyphicon glyphicon-edit"></i> ลงทะเบียนอบรม', 'url' => ['/member/customers/create']],
+//            Yii::$app->user->isGuest ? (
+//                ['label' => '<i class="glyphicon glyphicon-user"></i> เข้าใช้งาน', 'url' => ['/user/security/login']]
+//              
+//            ) : (
+//                '<li>'
+//                . Html::beginForm(['/site/logout'], 'post')
+//                . Html::submitButton(
+//                    'Logout (' . Yii::$app->user->identity->username . ')',
+//                    ['class' => 'btn btn-link logout']
+//                )
+//                . Html::endForm()
+//                . '</li>'
+//            ),     
         ],
     ]);
     NavBar::end();

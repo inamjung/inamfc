@@ -60,6 +60,9 @@ $config = [
         */
     ],
     'modules'=>[
+         'gridview'=>[
+            'class'=>'kartik\grid\Module'            
+        ],
         'user' => [
             'class' => 'dektrium\user\Module',
             'enableUnconfirmedLogin' => true,
@@ -78,12 +81,18 @@ $config = [
         'class' => 'mdm\admin\components\AccessControl',
         'allowActions' => [
             'site/*',
-            'user/*',
+            'user/registration/*',
             'admin/*',
             'gii/*',
-            'debug/*'
+            'debug/*',
+            'member/customers/*'
                    ]
     ],
+    'modules' => [
+        'member' => [
+            'class' => 'app\modules\member\Module',
+          ],
+        ],
     'params' => $params,
 ];
 
