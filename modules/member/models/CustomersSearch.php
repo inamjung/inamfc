@@ -48,6 +48,11 @@ class CustomersSearch extends Customers
 
         $dataProvider = new ActiveDataProvider([
             'query' => $query,
+            'sort'=>[
+                'defaultOrder'=>[
+                    'id'=>'sort_desc'
+                ]
+            ]
         ]);
 
         $this->load($params);

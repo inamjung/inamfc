@@ -100,7 +100,7 @@ use yii\helpers\ArrayHelper;
         </div>
     </div>
     <hr>
-    <div class="row">
+<!--    <div class="row">
         <div class="col-xs-4 col-sm-4 col-md-4">
              <?= $form->field($model, 'pay')->radioList(['1'=>'ชำระแล้ว','0'=>'ยังไม่ชำระ']) ?>
         </div>
@@ -124,13 +124,13 @@ use yii\helpers\ArrayHelper;
                     <div class="col-xs-12 col-sm-12 col-md-12  ">
                 <?= $form->field($model, 'slip_img')->label('หลักฐานการจ่าย')->fileInput() ?>       
                     </div>    
-                </div>     
-                        <?php if ($model->slip) { ?>
-                            <?= Html::img('img/' . $model->slip, ['class' => 'img-responsive img-circle', 'width' => '150px;']); ?>
-                <?php } ?> 
+                </div>     -->
+                <?php //if ($model->slip) { ?>
+                  <?php // Html::img('img/' . $model->slip, ['class' => 'img-responsive img-circle', 'width' => '150px;']); ?>
+                <?php //} ?> 
 
     <div class="form-group">
-        <?= Html::submitButton($model->isNewRecord ? 'Create' : 'Update', ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?>
+        <?= Html::submitButton($model->isNewRecord ? 'บันทึก' : 'Update', ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?>
     </div>
 
     <?php ActiveForm::end(); ?>

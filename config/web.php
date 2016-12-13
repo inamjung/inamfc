@@ -33,6 +33,14 @@ $config = [
         'errorHandler' => [
             'errorAction' => 'site/error',
         ],
+        'urlManager'=>[
+                'class'=>'yii\web\UrlManager',//Set class
+                //'enablePrettyUrl'=>true,//new showScriptName = false
+                //'showScriptName'=> true,
+                'rules'=>[
+                        'site//'=>'site/index',
+                ],
+        ], 
         'mailer' => [
             'class' => 'yii\swiftmailer\Mailer',
             // send all mails to a file by default. You have to set
@@ -50,19 +58,12 @@ $config = [
             ],
         ],
         'db' => require(__DIR__ . '/db.php'),
-        /*
-        'urlManager' => [
-            'enablePrettyUrl' => true,
-            'showScriptName' => false,
-            'rules' => [
-            ],
-        ],
-        */
+        
     ],
     'modules'=>[
-         'gridview'=>[
-            'class'=>'kartik\grid\Module'            
-        ],
+          'member' => [
+            'class' => 'app\modules\member\Module',
+          ],
         'user' => [
             'class' => 'dektrium\user\Module',
             'enableUnconfirmedLogin' => true,
@@ -75,24 +76,35 @@ $config = [
         ],
         'admin' => [
             'class' => 'mdm\admin\Module',            
-        ]
+        ],
+        'gridview' =>  [
+            'class' => '\kartik\grid\Module'
+        ],
     ],
     'as access' => [
         'class' => 'mdm\admin\components\AccessControl',
         'allowActions' => [
-            'site/*',
-            'user/registration/*',
-            'admin/*',
-            'gii/*',
-            'debug/*',
-            'member/customers/*'
+            'site/index',
+            
+//            'user/registration/*',
+//            'admin/*',
+//            'gii/*',
+//            'debug/*',
+              //'member/customers/*',
+            'member/customers/img/*',
+            'member/customers/indexyii',
+            'member/customers/create',
+            'member/customers/index',
+            'member/customers/print',
+            'member/customers/get-programe',
+            'member/customers/get-risktype',             
+            //'docs/*',
+            'docs/index',
+            'docs/view',
+            'docs/download',
+            
                    ]
-    ],
-    'modules' => [
-        'member' => [
-            'class' => 'app\modules\member\Module',
-          ],
-        ],
+    ],  
     'params' => $params,
 ];
 

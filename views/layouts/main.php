@@ -40,7 +40,7 @@ AppAsset::register($this);
         'items' => [
             ['label' => '<i class="glyphicon glyphicon-home"></i>', 'url' => ['/site/index']],             
             //['label' => '<i class="glyphicon glyphicon-edit"></i> สมัครสมาชิก', 'url' => ['/user/registration/register']],
-            ['label' => '<i class="glyphicon glyphicon-edit"></i> ลงทะเบียนอบรม', 'url' => ['/member/customers/create']],
+            ['label' => '<i class="glyphicon glyphicon-edit"></i> ลงทะเบียนอบรม', 'url' => ['/member/customers/index']],
 //            Yii::$app->user->isGuest ? (
 //                ['label' => '<i class="glyphicon glyphicon-user"></i> เข้าใช้งาน', 'url' => ['/user/security/login']]
 //              

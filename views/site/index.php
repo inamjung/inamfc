@@ -7,8 +7,12 @@ use yii\bootstrap\Carousel;
 
 $this->title = Yii::$app->name;
 ?>
-<div class="site-index">
 
+<!--    <div class="text text-center">
+        <h1>ยินดีต้อนรับ</h1>
+    </div>-->
+  
+<div class="container" style="margin-top: -25px;">
     <div class="jumbotron">
             <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                 <!-- Indicators -->
@@ -22,20 +26,28 @@ $this->title = Yii::$app->name;
                     <li data-target="#carousel-example-generic" data-slide-to="6"></li>
                     <li data-target="#carousel-example-generic" data-slide-to="7"></li>
                     <li data-target="#carousel-example-generic" data-slide-to="8"></li> 
+                    <li data-target="#carousel-example-generic" data-slide-to="9"></li>
             
                 </ol>
 
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner">
                     <div class="item active">
-                        <a href="report43err/index">  
+                        <a href="<?php echo Url::to(['/member/customers/indexyii']); ?>">  
+                            <img src="img/pic01.jpg" alt="..." >
+                            <div class="carousel-caption">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#">  
                             <img src="img/pic1.jpg" alt="..." >
                             <div class="carousel-caption">
                             </div>
                         </a>
                     </div>
                     <div class="item">
-                        <a href="report/index">
+                        <a href="#">
                             <img src="img/pic10.jpg" alt="...">
                             <div class="carousel-caption">
                             </div>
@@ -43,14 +55,14 @@ $this->title = Yii::$app->name;
 
                     </div>
                     <div class="item">
-                        <a href="runquery/index">
+                        <a href="#">
                             <img src="img/pic2.jpg" alt="...">
                             <div class="carousel-caption">
                             </div>
                         </a>
                     </div>
                     <div class="item">
-                        <a href="reportdc/index">
+                        <a href="#">
                             <img src="img/pic3.jpg" alt="...">
                             <div class="carousel-caption">
                             </div>
@@ -58,21 +70,21 @@ $this->title = Yii::$app->name;
                     </div>
                     
                     <div class="item">
-                        <a href="runquery/index">
+                        <a href="#">
                             <img src="img/pic4.jpg" alt="...">
                             <div class="carousel-caption">
                             </div>
                         </a>
                     </div> 
-                    <div class="item active">
-                        <a href="report43err/index">  
+                    <div class="item">
+                        <a href="#">  
                             <img src="img/pic5.jpg" alt="..." >
                             <div class="carousel-caption">
                             </div>
                         </a>
                     </div>
                     <div class="item">
-                        <a href="report/index">
+                        <a href="#">
                             <img src="img/pic6.jpg" alt="...">
                             <div class="carousel-caption">
                             </div>
@@ -80,7 +92,7 @@ $this->title = Yii::$app->name;
 
                     </div>
                     <div class="item">
-                        <a href="reportdc/index">
+                        <a href="#">
                             <img src="img/pic7.jpg" alt="...">
                             <div class="carousel-caption">
                             </div>
@@ -88,14 +100,14 @@ $this->title = Yii::$app->name;
                     </div>
                     
                     <div class="item">
-                        <a href="runquery/index">
+                        <a href="#">
                             <img src="img/pic8.jpg" alt="...">
                             <div class="carousel-caption">
                             </div>
                         </a>
                     </div> 
                     <div class="item">
-                        <a href="runquery/index">
+                        <a href="#">
                             <img src="img/pic9.jpg" alt="...">
                             <div class="carousel-caption">
                             </div>
@@ -112,14 +124,24 @@ $this->title = Yii::$app->name;
                 </a>
             </div> <!-- Carousel -->
             
-            <h1>ยินดีต้อนรับ</h1>
+<!--            <h1>ยินดีต้อนรับ</h1>-->
 
-           
-        </div>
+           <h2>มาร่วมเรียนรู้ - แบ่งปัน - ในเวทีที่มีแต่ พี่กับน้อง</h2>
+    <h4>วันที่ 16 - 18 มกราคม 2560 | จัดที่ โรงพยาบาลศรีวิไล  อ.ศรีวิไล  จ.บึงกาฬ</h4>
+    <h3><a href="<?php echo Url::to(['/member/customers/indexyii']); ?>">  
+            <i class="glyphicon glyphicon-search"></i> รายละเอียด
+    </a></h3>
+    
 
-    <div class="body-content">
-
-        
-
-    </div>
+<div class="head">
+    <strong><img src = "img/inam2.jpg" width="70"/></strong>
+</div><br>
+<div>
+    <strong>สอบถามข้อมูลโทรศัพท์ : 091-363-8928  | FB : เป็นดั่ง พรุ</strong>  
 </div>
+</div>
+</div>
+
+    
+
+
